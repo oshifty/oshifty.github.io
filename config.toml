@@ -13,14 +13,13 @@ darkmode_js = ["assets/js/darkmode.js"]
 enableInlineShortcodes = true
 
 [params]
-author = "Nusser Studios"
+author = "Lukas Runge"
 authorimage = "../assets/images/global/author.webp"
-github = "https://github.com/nusserstudios"
-facebook = "https://facebook.com/nusserstudios"
-og_image = "/images/tailbliss-cover.png"
-sitename = "TailBliss"
-twitter = "@nusserstudios"
-description = "TailBliss is Hugo Starter"
+github = "https://github.com/lukas-runge"
+og_image = "/images/shifty-cover.png"
+sitename = "SHIFTY"
+twitter = "@lksrunge"
+description = "Reinventing Fixture Control"
 
 [markup]
 [markup.goldmark]
