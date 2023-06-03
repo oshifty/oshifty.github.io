@@ -16,7 +16,6 @@ enableInlineShortcodes = true
 author = "Lukas Runge"
 authorimage = "../assets/images/global/author.webp"
 github = "https://github.com/lukas-runge"
-og_image = "/images/shifty-cover.png"
 sitename = "SHIFTY"
 twitter = "@lksrunge"
 description = "Reinventing Fixture Control"
