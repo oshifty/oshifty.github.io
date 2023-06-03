@@ -1,4 +1,4 @@
-<title itemprop="name">{{if .IsHome}} {{ $.Site.Params.description }} | {{ .Title }}
+<!-- <title itemprop="name">{{if .IsHome}} {{ .Title }} - {{ $.Site.Params.description }}
     {{else}} {{ .Title }} | {{ .Site.Title }} {{end}}
 </title>
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
@@ -21,4 +21,28 @@
 <meta property="og:image" content="{{ .Params.Site.BaseURL }}{{ .Site.Params.og_image | relURL }}" />
 <meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}" />
 {{ end }}
-<meta property="og:type" content="website" />
+<meta property="og:type" content="website" /> -->
+
+<!-- Primary Meta Tags -->
+<title itemprop="name">{{if .IsHome}} {{ .Title }} - {{ $.Site.Params.description }}
+    {{else}} {{ .Title }} | {{ .Site.Title }} {{end}}
+</title>
+<meta name="title" content="{{if .IsHome}} {{ .Title }} - {{ $.Site.Params.description }}
+{{else}} {{ .Title }} | {{ .Site.Title }} {{end}}">
+<meta name="description" content="An open-source, hardware-agnostic lighting control solution that uses TCP/IP with Zeroconf to control all fixtures in regard to physical values.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{if .IsHome}} {{ .Title }} - {{ $.Site.Params.description }}
+{{else}} {{ .Title }} | {{ .Site.Title }} {{end}}">
+<meta property="og:description" content="An open-source, hardware-agnostic lighting control solution that uses TCP/IP with Zeroconf to control all fixtures in regard to physical values.">
+<meta property="og:image" content="{{ .Params.Site.BaseURL }}{{ .Site.Params.og_image | relURL }}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ .Permalink }}">
+<meta property="twitter:title" content="{{if .IsHome}} {{ .Title }} - {{ $.Site.Params.description }}
+{{else}} {{ .Title }} | {{ .Site.Title }} {{end}}">
+<meta property="twitter:description" content="An open-source, hardware-agnostic lighting control solution that uses TCP/IP with Zeroconf to control all fixtures in regard to physical values.">
+<meta property="twitter:image" content="{{ .Params.Site.BaseURL }}{{ .Site.Params.og_image | relURL }}">
