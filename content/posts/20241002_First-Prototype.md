@@ -3,7 +3,7 @@ title: "First E2E Prototype 🎉"
 date: 2024-10-02T21:00:00+02:00
 draft: false
 language: en
-featured_image: ../assets/images/featured/featured-img-placeholder.png
+featured_image: ../assets/images/posts/prototype_repo_screenshot.png
 summary: Today we are proud to announce the first working end-to-end prototype...
 description: Today we are proud to announce the first working end-to-end prototype...
 author: Hannes Rüger
