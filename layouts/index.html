@@ -288,7 +288,7 @@
             <div class="text-center">
                 <h2
                     class="text-3xl font-black tracking-tight text-primary-500 capitalize dark:text-primary-300 sm:text-4xl">
-                    From the blog
+                    Latest News & Updates
                 </h2>
                 <p class="max-w-2xl mx-auto mt-3 text-xl text-gray-500 dark:text-gray-300 sm:mt-4">
                     Find out what we've been up to lately, see how you can contribute and check out what's new:
@@ -343,7 +343,9 @@
                                             {{ .Params.author }}
                                         </p>
                                         <div class="flex space-x-1 text-sm text-gray-500 dark:text-white">
-                                            <time datetime="2020-02-12">{{.Date.Format "2006-01-02"}}</time>
+                                            <time datetime={{.Date.Format "2006-01-02" }}>
+                                                {{.Date.Format "Jan 2, 2006" }}
+                                            </time>
                                             <span aria-hidden="true">&middot;</span>
                                             <span>{{ math.Round (div (countwords .Content) 220.0) }}
                                                 min read</span>
