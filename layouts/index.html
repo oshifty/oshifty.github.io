@@ -43,7 +43,7 @@
                     <img srcset="
                         {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
                         {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}"
-                        width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xl mx-auto rounded-lg" />
+                        width="100%" height="" alt="Hero" class="w-full max-w-xl mx-auto rounded-lg" />
                 </div>
             </div>
         </div>
@@ -78,8 +78,7 @@
                         {{ with $missionimage }}
                         {{ with .Resize (printf "%dx%d webp q50" .Width .Height) }}
                         <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"
-                            class="absolute inset-0 object-cover w-full h-full" alt="TailBliss - Our Mission"
-                            loading="lazy" />
+                            class="absolute inset-0 object-cover w-full h-full" alt="" loading="lazy" />
                         {{ end }}>
                         {{ end }}
                         <div class="absolute inset-0 bg-primary-300 mix-blend-multiply"></div>
@@ -205,8 +204,8 @@
                         {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
                         {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
                         {{- with $large.RelPermalink -}}, {{.}} 1374w{{- end -}}" src="{{ $heroOne.RelPermalink }}"
-                        alt="TailBliss Hacktoberfest Image"
-                        class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none" loading="lazy" />
+                        alt="Hacktoberfest Image" class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none"
+                        loading="lazy" />
                 </div>
             </div>
         </div>
@@ -238,8 +237,7 @@
                         {{ with $missionimage }}
                         {{ with .Resize (printf "%dx%d webp q50" .Width .Height) }}
                         <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"
-                            class="absolute inset-0 object-cover w-full h-full" alt="TailBliss - Our Mission"
-                            loading="lazy" />
+                            class="absolute inset-0 object-cover w-full h-full" alt="Our Mission" loading="lazy" />
                         {{ end }}>
                         {{ end }}
                         <div class="absolute inset-0 bg-primary-300 mix-blend-multiply"></div>
