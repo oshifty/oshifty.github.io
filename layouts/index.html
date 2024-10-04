@@ -397,10 +397,10 @@
                             from you! Just let us know your email and we'll be in touch!
                         </p>
                     </div>
-                    <form action="#" class="mt-12 sm:mx-auto sm:flex sm:max-w-lg">
+                    <form action="/contact/" class="mt-12 sm:mx-auto sm:flex sm:max-w-lg" method="get">
                         <div class="flex-1 min-w-0">
                             <label for="cta-email" class="sr-only">Email address</label>
-                            <input id="cta-email" type="email"
+                            <input id="cta-email" type="email" name="email" required
                                 class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500"
                                 placeholder="Enter your email">
                         </div>
@@ -413,7 +413,7 @@
                     </form>
                     <div class="sm:text-center">
                         <p class="max-w-2xl mx-auto my-6 text-lg text-primary-100">
-                            or go to our GitHub:
+                            or check out
                         </p>
                     </div>
                     <div class="sm:text-center">
