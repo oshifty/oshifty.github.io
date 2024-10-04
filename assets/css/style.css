@@ -1105,6 +1105,10 @@ video {
   border-width: 0;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -1160,16 +1164,6 @@ video {
 
 .col-span-6 {
   grid-column: span 6 / span 6;
-}
-
-.-mx-5 {
-  margin-left: -1.25rem;
-  margin-right: -1.25rem;
-}
-
-.-my-2 {
-  margin-top: -0.5rem;
-  margin-bottom: -0.5rem;
 }
 
 .mx-auto {
@@ -1232,6 +1226,10 @@ video {
   margin-left: 0.75rem;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -1264,8 +1262,8 @@ video {
   margin-top: 2rem;
 }
 
-.mt-0 {
-  margin-top: 0px;
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
 .block {
@@ -2263,11 +2261,6 @@ EmojiSymbols;
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.hover\:text-gray-300:hover {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .hover\:text-primary-600:hover {
