@@ -8,7 +8,7 @@ enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
 canonifyURLs = true
-paginate = 9
+pagerSize = 9
 darkmode_js = ["assets/js/darkmode.js"]
 enableInlineShortcodes = true
 
@@ -53,6 +53,6 @@ disable = false
 privacyEnhanced = true
 
 [module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.104.0"
+[module.hugoVersion]
+extended = true
+min = "0.135.0"

@@ -18,3 +18,12 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# Yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
