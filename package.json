@@ -13,8 +13,9 @@
     "tailwindcss": "^3.4.13"
   },
   "scripts": {
-    "start": "concurrently \"yarn watch:tw\" \"yarn watch:hugo\"",
+    "start": "yarn tw && concurrently \"yarn watch:tw\" \"yarn watch:hugo\"",
     "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
+    "tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css",
     "watch:hugo": "hugo server",
     "build": "hugo --minify",
     "test": "hugo"
