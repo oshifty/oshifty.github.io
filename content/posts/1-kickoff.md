@@ -7,7 +7,6 @@ featured_image: ../assets/images/posts/kickoff_rocket.png
 summary: From running across venues fixing lights to searching for a smoother process, I’ve always believed there must be a better way for lighting control.
 description: Lighting design has always been a passion of mine, but the process is often frustrating and time-consuming. From setup to troubleshooting under pressure, the current tools don't cut it. This post explores the challenges of lighting design and introduces SHIFTY, a solution designed to improve the experience for show designers.
 author: Lukas Runge
-authorimage: ../assets/images/global/LukasRunge.png
 tags: ["News"]
 ---
 

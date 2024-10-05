@@ -7,7 +7,6 @@ featured_image: ../assets/images/posts/prototype_repo_screenshot.png
 summary: Today we are proud to announce the first working end-to-end prototype...
 description: Today we are proud to announce the first working end-to-end prototype...
 author: Hannes Rüger
-authorimage: ../assets/images/global/HannesRueger.jpg
 tags:
     - Prototype
     - Desk
