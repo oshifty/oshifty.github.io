@@ -85,9 +85,6 @@
                         <div class="absolute inset-0 bg-gradient-to-t from-primary-600 opacity-80">
                         </div>
                         <div class="relative px-8">
-                            <div>
-                                <img class="h-12" src="images/tailbliss-white.svg" alt="Workcation">
-                            </div>
                             <blockquote class="mt-8">
                                 <div class="relative text-lg font-medium text-white md:flex-grow">
                                     <svg class="absolute top-0 left-0 w-8 h-8 transform -translate-x-3 -translate-y-2 text-primary-400/30"
@@ -95,16 +92,15 @@
                                         <path
                                             d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                                     </svg>
-                                    <p class="relative">Tincidunt integer commodo, cursus etiam
-                                        aliquam neque, et. Consectetur pretium in volutpat, diam.
-                                        Montes, magna cursus nulla feugiat dignissim id lobortis
-                                        amet.
-                                    </p>
+                                    <i class="relative">
+                                        From an early age, I couldn't help but wonder why setting up lighting rigs is
+                                        such a complicated and involved process.
+                                    </i>
                                 </div>
 
                                 <footer class="mt-4">
                                     <p class="text-base font-semibold text-gray-200">
-                                        John Doe, CEO at TailBliss
+                                        ~ Lukas Runge, Founder of SHIFTY
                                     </p>
                                 </footer>
                             </blockquote>
@@ -120,18 +116,15 @@
                         class="text-3xl font-bold tracking-tight text-gray-900 capitalize dark:text-gray-50 sm:text-4xl">
                         Why do we need it?</h2>
                     <div class="mt-6 space-y-6 text-gray-900 dark:text-white">
-                        <p class="text-lg leading-7">Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1
-                            Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1
-                            Paragraph 1 Paragraph 1Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph
+                        <p class="text-lg leading-7">
+                            Lighting operation can be frustrating, with constant last-minute fixes and unreliable tools
+                            making the process stressful. Despite modern protocols, current solutions don't address the
+                            core technical issues operators face, leaving little time for creativity.
                         </p>
-                        <p class="text-lg leading-7">Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2
-                            Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2
-                            Paragraph 2 Paragraph 2 Paragraph 2Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph
-                            2
-                        </p>
-                        <p class="text-lg leading-7">Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3
-                            Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3
-                            Paragraph 3
+                        <p class="text-lg leading-7">
+                            SHIFTY offers a fresh approach to simplify the workflow and improve reliability. By greatly
+                            transforming the user experience, it aims to solve these persistent challenges and make
+                            lighting operation easier for everyone.
                         </p>
                     </div>
                     <div class="my-6">
@@ -154,17 +147,21 @@
                             How does it work?
                         </h1>
                         <p class="mt-6 text-lg text-gray-900 dark:text-white">
-                            Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1
-                            Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1
-                            Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1
+                            SHIFTY is different to existing approaches to solve the core problem like ArtNet, sACN and
+                            other
+                            protocols by not just using a different transport. It is a complete rethinking of the
+                            lighting control system. Fixtures are now self describing and can be connected in a bus- or
+                            tree-like topology or - even better - in a combination of both.
                         </p>
                         <p class="pb-12 mt-6 text-lg text-gray-900 dark:text-white">
-                            Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2
-                            Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2
-                            Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2
+                            In addition to also building on top of modern network protocols, using Zeroconf for
+                            discovery there is no need for manual configuration. Just physically connect the fixtures
+                            and they will be automatically detected and configured in your desk. Also, as we communicate
+                            physical values, different fixtures can be matched more easily and be visualized in a much
+                            more accurate way.
                         </p>
                     </div>
-                    <div class="my-6">
+                    <div class="mb-6">
                         <a href="/solution" class="text-base font-medium text-primary-400 dark:text-primary-100">
                             More technical details&nbsp&rarr;
                         </a>
@@ -233,15 +230,15 @@
                 <div class="relative max-w-md px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
                     <!-- Testimonial card-->
                     <div class="relative pt-64 pb-10 overflow-hidden shadow-xl rounded-2xl">
-                        {{ $missionimage := resources.Get "images/pages/our-mission.png" }}
+                        {{ $missionimage := resources.Get "images/pages/github.png" }}
                         {{ with $missionimage }}
                         {{ with .Resize (printf "%dx%d webp q50" .Width .Height) }}
                         <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"
                             class="absolute inset-0 object-cover w-full h-full" alt="Our Mission" loading="lazy" />
                         {{ end }}>
                         {{ end }}
-                        <div class="absolute inset-0 bg-primary-300 mix-blend-multiply"></div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-primary-600 opacity-80">
+                        <div class="absolute inset-0 "></div>
+                        <div class="absolute inset-0">
                         </div>
                     </div>
                 </div>
@@ -254,23 +251,21 @@
                         class="text-3xl font-bold tracking-tight text-gray-900 capitalize dark:text-gray-50 sm:text-4xl">
                         Real-world-tested & Open Source</h2>
                     <div class="mt-6 space-y-6 text-gray-900 dark:text-white">
-                        <p class="text-lg leading-7">Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1
-                            Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1
-                            Paragraph 1 Paragraph 1Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph
+                        <p class="text-lg leading-7">
+                            Another important aspect of SHIFTY is that we want to test it before it might be
+                            standardized one day. This way we can ensure that it is a good solution for the industry and
+                            not just a concept which works in theory, but not in practice.
                         </p>
-                        <p class="text-lg leading-7">Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2
-                            Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2
-                            Paragraph 2 Paragraph 2 Paragraph 2Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2 Paragraph
-                            2
-                        </p>
-                        <p class="text-lg leading-7">Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3
-                            Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3
-                            Paragraph 3
+                        <p class="text-lg leading-7">
+                            In addition to that, everything we do is open source. We'll never charge for software,
+                            patents or impose license fees. We believe that the best way to develop a solution is to do
+                            it together with the community. In our opinion, this is the only way to ensure that the
+                            solution will be adopted by the industry.
                         </p>
                     </div>
                     <div class="my-6">
                         <a href="/validation" class="text-base font-medium text-primary-400 dark:text-primary-100">
-                            See how we validated our approach&nbsp&rarr;
+                            See how we are validating our approach&nbsp&rarr;
                         </a>
                     </div>
                 </div>
