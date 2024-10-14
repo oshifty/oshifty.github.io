@@ -50,6 +50,8 @@ jobs:
               uses: actions/configure-pages@v5
             - name: Install Node.js dependencies
               run: yarn install
+            - name: Build Tailwind CSS
+              run: yarn tw
             - name: Build with Hugo
               env:
                   # For maximum backward compatibility with Hugo modules

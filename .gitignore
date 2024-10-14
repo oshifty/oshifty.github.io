@@ -11,6 +11,9 @@ yarn-error.log
 /assets/jsconfig.json
 hugo_stats.json
 
+# Generated style by tailwindcss
+/assets/css/style.css
+
 # Executable may be added to repository
 hugo.exe
 hugo.darwin
@@ -27,3 +30,6 @@ hugo.linux
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# DS_Store files
+.DS_Store

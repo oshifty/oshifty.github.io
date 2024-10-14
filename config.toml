@@ -14,7 +14,6 @@ enableInlineShortcodes = true
 
 [params]
 author = "Lukas Runge"
-authorimage = "../assets/images/global/author.webp"
 github = "https://github.com/lukas-runge"
 sitename = "SHIFTY"
 twitter = "@lksrunge"
