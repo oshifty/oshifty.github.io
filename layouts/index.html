@@ -74,7 +74,7 @@
                 <div class="relative max-w-md px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
                     <!-- Testimonial card-->
                     <div class="relative pt-64 pb-10 overflow-hidden shadow-xl rounded-2xl">
-                        {{ $missionimage := resources.Get "images/pages/our-mission.png" }}
+                        {{ $missionimage := resources.Get "images/pages/lukas-runge.jpg" }}
                         {{ with $missionimage }}
                         {{ with .Resize (printf "%dx%d webp q50" .Width .Height) }}
                         <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"
@@ -189,7 +189,7 @@
                     </svg>
                 </div>
                 <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
-                    {{ $heroOne := resources.GetMatch "images/pages/hacktoberfest.jpg" }}
+                    {{ $heroOne := resources.GetMatch "images/pages/how-does-it-work.png" }}
 
                     {{ $tiny := ($heroOne.Fit "480x280 q80") }}
                     {{ $small := ($heroOne.Fit "768x280 q80") }}
@@ -201,7 +201,7 @@
                         {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
                         {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
                         {{- with $large.RelPermalink -}}, {{.}} 1374w{{- end -}}" src="{{ $heroOne.RelPermalink }}"
-                        alt="Hacktoberfest Image" class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none"
+                        alt="How SHIFTY works Image" class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none"
                         loading="lazy" />
                 </div>
             </div>
