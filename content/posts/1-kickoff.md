@@ -4,13 +4,13 @@ date: 2023-06-03T11:10:36+08:00
 draft: false
 language: en
 featured_image: ../assets/images/posts/kickoff_rocket.png
-summary: From running across venues fixing lights to searching for a smoother process, I’ve always believed there must be a better way for lighting control.
-description: Lighting design has always been a passion of mine, but the process is often frustrating and time-consuming. From setup to troubleshooting under pressure, the current tools don't cut it. This post explores the challenges of lighting design and introduces SHIFTY, a solution designed to improve the experience for show designers.
+summary: From running across venues fixing lights to searching for a smoother process, I’ve always believed there must be a better way for fixture control.
+description: Lighting design has always been a passion of mine, but the process is often frustrating and time-consuming. From setup to troubleshooting under pressure, the current tools don't cut it. This post explores the challenges of fixture control and introduces SHIFTY, a solution designed to improve the experience for show designers.
 author: Lukas Runge
 tags: ["News"]
 ---
 
-## 💡 The Challenges of Lighting Design
+## 💡 The Challenges of Fixture Control
 
 I've been fascinated by lighting design since I was 6 years old. From an early age, I couldn’t help but wonder why setting up lighting rigs is such a complicated and involved process.
 
