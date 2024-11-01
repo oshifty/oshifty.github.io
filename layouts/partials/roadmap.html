@@ -75,7 +75,7 @@
         }
 
         async function loadFromGitHub() {
-            const roadmap = await fetch(`${GH_API_BASE_URL}/repos/${OWNER}/${REPO}/issues`)
+            const roadmap = await fetch(`${GH_API_BASE_URL}/repos/${OWNER}/${REPO}/issues?state=all`)
                 .then(response => response.json())
                 .then(data => {
                     return data.map(item => {
