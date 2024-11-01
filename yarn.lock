@@ -129,12 +129,12 @@ __metadata:
   resolution: "@oshifty/website@workspace:."
   dependencies:
     "@tailwindcss/typography": "npm:^0.5.15"
-    alpinejs: "npm:^3.14.1"
+    alpinejs: "npm:^3.14.3"
     autoprefixer: "npm:^10.4.20"
     concurrently: "npm:^9.0.1"
     postcss: "npm:^8.4.47"
     postcss-cli: "npm:^11.0.0"
-    tailwindcss: "npm:^3.4.13"
+    tailwindcss: "npm:^3.4.14"
   languageName: unknown
   linkType: soft
 
@@ -208,12 +208,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"alpinejs@npm:^3.14.1":
-  version: 3.14.1
-  resolution: "alpinejs@npm:3.14.1"
+"alpinejs@npm:^3.14.3":
+  version: 3.14.3
+  resolution: "alpinejs@npm:3.14.3"
   dependencies:
     "@vue/reactivity": "npm:~3.1.1"
-  checksum: 10c0/121be09a8e4e068b7ca1a85d9a0f986650f2b32f86640063cb40ea7bd3b1face1562626b1f6e01868f10ea2f6cd4e0c5f308ad0f938f07020107c2312932ea1a
+  checksum: 10c0/b1d6d5686c72e65b9b5c4aaa0631bb744983b1eeabb21b3eb3a007c09cbf09c886247e8244121e8b20917e7870522c2648f0ce9144d06d8cb9d998878afddce7
   languageName: node
   linkType: hard
 
@@ -1888,9 +1888,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.4.13":
-  version: 3.4.13
-  resolution: "tailwindcss@npm:3.4.13"
+"tailwindcss@npm:^3.4.14":
+  version: 3.4.14
+  resolution: "tailwindcss@npm:3.4.14"
   dependencies:
     "@alloc/quick-lru": "npm:^5.2.0"
     arg: "npm:^5.0.2"
@@ -1917,7 +1917,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 10c0/c6525be3dd26febc4ec5e45e80596bff8b48ade7de258c1ec8704297bf47c1ec7b2b186b13662ebaa6ab4795ad8879fb64064f796756bfc8b46558b542b01a6c
+  checksum: 10c0/f6c23f8a3293ce3b2511bca1e50008ac94bd8562cb09fec32fe4f8e8a4f54d9e9fc10e567b7f974abdd4b33e550564a2616d4e793c736955432f28448141ce45
   languageName: node
   linkType: hard
 
