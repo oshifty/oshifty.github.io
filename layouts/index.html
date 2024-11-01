@@ -140,6 +140,27 @@
     <!-- Hero section -->
     <div class="overflow-hidden sm:pt-6 lg:relative">
         <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-12 lg:px-8">
+
+            <div class="block lg:hidden">
+                <div class="relative">
+                    {{ $heroOne := resources.GetMatch "images/pages/how-does-it-work.png" }}
+
+                    {{ $tiny := ($heroOne.Fit "480x280 q80") }}
+                    {{ $small := ($heroOne.Fit "768x280 q80") }}
+                    {{ $medium := ($heroOne.Fit "1024x280 q80") }}
+                    {{ $large := ($heroOne.Fit "1374x1000 q80") }}
+
+                    <img srcset="
+                        {{- with $tiny.RelPermalink -}}{{.}} 480w{{- end -}}
+                        {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
+                        {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
+                        {{- with $large.RelPermalink -}}, {{.}} 1374w{{- end -}}" src="{{ $heroOne.RelPermalink }}"
+                        alt="How SHIFTY works Image"
+                        class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none" loading="lazy" />
+                </div>
+            </div>
+
+
             <div>
                 <div class="md:mt-8">
                     <div class="mt-6 sm:max-w-xl">
@@ -172,7 +193,7 @@
             </div>
         </div>
 
-        <div class="sm:mx-auto sm:max-w-3xl sm:px-6">
+        <div class="sm:mx-auto sm:max-w-3xl sm:px-6 hidden lg:block">
             <div class="md:py-12 sm:relative sm:mt-12 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                 <div class="hidden sm:block">
                     <div
