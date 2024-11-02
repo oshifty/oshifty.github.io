@@ -1,7 +1,7 @@
 {
-  "name": "TailBliss",
+  "name": "@oshifty/website",
   "version": "0.1.1",
-  "description": "Hugo + Alpine.js + TailwindCSS",
+  "description": "SHIFTY - Reinventing Fixture Control",
   "main": "index.js",
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.15",
@@ -13,34 +13,32 @@
     "tailwindcss": "^3.4.14"
   },
   "scripts": {
-    "start": "concurrently \"yarn watch:tw\" \"yarn watch:hugo\"",
+    "start": "yarn tw && concurrently \"yarn watch:tw\" \"yarn watch:hugo\"",
     "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
+    "tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css",
     "watch:hugo": "hugo server",
     "build": "hugo --minify",
     "test": "hugo"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nusserstudios/tailbliss.git"
+    "url": "git+https://github.com/oshifty/oshifty.github.io.git"
   },
   "keywords": [
-    "hugo",
-    "tailwind",
-    "tailwindcss",
-    "alpinejs",
-    "minimal",
-    "responsive",
-    "light mode",
-    "dark mode",
-    "hugo blog",
-    "categories",
-    "tags"
+    "shifty",
+    "lighting",
+    "control",
+    "fixture",
+    "dmx",
+    "artnet",
+    "sacn",
+    "web",
+    "protocol"
   ],
-  "author": "NusserStudios",
-  "license": "Apache-2.0",
+  "author": "The SHIFTY Team",
   "bugs": {
-    "url": "https://github.com/nusserstudios/tailbliss/issues"
+    "url": "https://github.com/oshifty/oshifty.github.io/issues"
   },
-  "homepage": "https://github.com/nusserstudios/tailbliss",
+  "homepage": "https://oshifty.vision",
   "packageManager": "yarn@4.5.0"
 }

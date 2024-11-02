@@ -124,6 +124,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@oshifty/website@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@oshifty/website@workspace:."
+  dependencies:
+    "@tailwindcss/typography": "npm:^0.5.15"
+    alpinejs: "npm:^3.14.3"
+    autoprefixer: "npm:^10.4.20"
+    concurrently: "npm:^9.0.1"
+    postcss: "npm:^8.4.47"
+    postcss-cli: "npm:^11.0.0"
+    tailwindcss: "npm:^3.4.14"
+  languageName: unknown
+  linkType: soft
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -167,20 +181,6 @@ __metadata:
   checksum: 10c0/197aa5bdd370177d26ca7a178bb3d3d2332cee2c8e67000bd2bb91b1ffc571d5489fab3a65f38a32e941dc8182d1cd6c6af6e294bb9ea13e01eafdde475319ea
   languageName: node
   linkType: hard
-
-"TailBliss@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "TailBliss@workspace:."
-  dependencies:
-    "@tailwindcss/typography": "npm:^0.5.15"
-    alpinejs: "npm:^3.14.3"
-    autoprefixer: "npm:^10.4.20"
-    concurrently: "npm:^9.0.1"
-    postcss: "npm:^8.4.47"
-    postcss-cli: "npm:^11.0.0"
-    tailwindcss: "npm:^3.4.14"
-  languageName: unknown
-  linkType: soft
 
 "abbrev@npm:^2.0.0":
   version: 2.0.0
