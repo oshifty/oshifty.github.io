@@ -5,7 +5,7 @@ draft: false
 language: en
 featured_image: ../assets/images/posts/not-a-new-idea.png
 summary: "Exploring the evolution of fixture control protocols and why it's time for a fresh approach with SHIFTY."
-description: "A journey through the history of lighting control—from the invention of phase-cut dimmers to DMX and ACN—and how SHIFTY aims to revolutionize fixture control."
+description: "A journey through the history of lighting control — from the invention of phase-cut dimmers to DMX and ACN — and how SHIFTY aims to revolutionize fixture control."
 author: Lukas Runge
 tags: 
   - History
@@ -17,7 +17,7 @@ tags:
 
 The story of lighting control is a fascinating one. Back in **1959**, the invention of **phase-cut dimmers** made it possible to control dimmers via a separate **0-10V control signal** for the first time. This innovation allowed dimmers, which produced the operating current for lamps, to be moved to a separate room 🏠.
 
-When **Vari*Lite** introduced the first moving light (**VL0**) in **1981**, it was a game-changer 🎮. It made sense to take things a step further by generating the operating currents for the motors within the fixture itself. This advancement created a need for a protocol capable of controlling multiple attributes of a remote device.
+When **Vari-Lite** introduced the first moving light (**VL0**) in **1981**, it was a game-changer 🎮. It made sense to take things a step further by generating the operating currents for the motors within the fixture itself. This advancement created a need for a protocol capable of controlling multiple attributes of a remote device.
 
 To meet this need, the **USITT** standardized **Digital Multiplex (DMX)** in **1986**, based on the established **RS-485** protocol. DMX was the first digital protocol that allowed centralized control of distributed lighting technology 🌐. It enabled control over not just the attributes of a luminaire—like color, focus, and zoom—but also devices that weren't luminaires, such as curtain systems 🎭.
 
@@ -25,7 +25,7 @@ For a long time, DMX was robust and met industry requirements. However, as moder
 
 ## 🚧 The Limitations of DMX and the Rise of Art-Net
 
-To avoid the hassle of running multiple DMX universes onto one truss, **Art-Net** was developed. This protocol eliminated the one-universe-per-cable limitation by building on **UDP** using broadcast 🚀. However, it didn't adopt other advantages of modern network stacks. Essentially, it was a patch rather than a solution.
+To avoid the hassle of running multiple DMX universes onto one truss, the Ethernet-based **Art-Net** was developed. This protocol eliminated the one-universe-per-cable limitation by building on **UDP** using broadcast 🚀. However, it didn't adopt other advantages of modern network stacks. Essentially, it was a patch rather than a solution.
 
 Recognizing the need for a more advanced protocol, **ESTA** worked on developing a new control protocol that leveraged modern networking advantages and met growing user expectations.
 
