@@ -19,7 +19,7 @@ The story of lighting control is a fascinating one. Back in **1959**, the invent
 
 When **Vari-Lite** introduced the first moving light (**VL0**) in **1981**, it was a game-changer 🎮. It made sense to take things a step further by generating the operating currents for the motors within the fixture itself. This advancement created a need for a protocol capable of controlling multiple attributes of a remote device.
 
-To meet this need, the **USITT** standardized **Digital Multiplex (DMX)** in **1986**, based on the established **RS-485** protocol. DMX was the first digital protocol that allowed centralized control of distributed lighting technology 🌐. It enabled control over not just the attributes of a luminaire—like color, focus, and zoom—but also devices that weren't luminaires, such as curtain systems 🎭.
+To meet this need, the **USITT** standardized **Digital Multiplex (DMX)** in **1986**, based on the established **RS-485** protocol. DMX was the first digital protocol that allowed centralized control of distributed lighting technology 🌐. It enabled control over not just the attributes of a luminaire — like color, focus, and zoom — but also devices that weren't luminaires, such as curtain systems 🎭.
 
 For a long time, DMX was robust and met industry requirements. However, as modern fixtures became more advanced, fewer fixtures could operate within a single DMX universe 🌌.
 
