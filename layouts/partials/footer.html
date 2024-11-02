@@ -5,14 +5,30 @@
 <script src="{{ $js.RelPermalink }}" defer></script>
 <footer class="bg-gray-900">
     <div class="max-w-md px-4 py-12 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-        <p class="mt-0 text-base text-center text-gray-400">
+
+
+        <p class="mt-1 text-base text-center text-gray-400">
+            <a href="https://github.com/oshifty" class="hover:underline hover:text-light">
+                GitHub
+            </a>
+            &middot;
+            <a href="https://lukasrunge.de/impressum.html" class="hover:underline hover:text-light">
+                Imprint
+            </a>
+        </p>
+
+        <p class="mt-2 text-base text-center text-gray-400">
             &copy; 2023 - {{ now.Format "2006" }} The <a class="hover:underline hover:text-light"
                 href="https://github.com/orgs/oshifty/people">SHIFTY Team</a>.
             All rights reserved.
         </p>
-        <p class="mt-2 text-base text-center text-gray-400">Template by <a href="https://nusserstudios.com"
-                class="hover:underline hover:text-light"><span class="font-black uppercase">Nusser</span> <span
-                    class="font-light uppercase">Studios.</span></a>
+
+        <p class="text-sm mt-2 text-base text-center text-gray-400">
+            Template by
+            <a href="https://nusserstudios.com" class="hover:underline hover:text-light">
+                <span class="font-black uppercase">Nusser</span>
+                <span class="font-light uppercase">Studios.</span>
+            </a>
         </p>
     </div>
 </footer>
