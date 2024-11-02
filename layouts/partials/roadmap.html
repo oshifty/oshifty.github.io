@@ -79,11 +79,10 @@
 
             // scroll the roadmap so that the last done item is visible on the left and there are two non-done items on the right
             if (lastDoneItem) {
-                lastDoneItem.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'nearest',
-                    inline: 'start'
-                });
+                const y = window.scrollY;
+                const x = window.scrollX;
+                lastDoneItem.scrollIntoView({ block: "nearest", inline: "start" });
+                window.scroll(x, y);
             }
         }
 
