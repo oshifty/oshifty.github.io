@@ -60,8 +60,6 @@ Thirty-eight years after DMX was invented, every subsequent protocol has tried t
 
 With **SHIFTY**, we're aiming to change that 🛠️. We're reinventing fixture control from the ground up. If you'd like to see this project succeed, you're welcome to participate in its development 🙌.
 
----
+We are looking for contributors to help us design, build and (probably most important) test SHIFTY. If you are interested, please reach out to us on [GitHub](https://github.com/oshifty) or via our [contact form](/contact).
 
-**Thank you!**
-
-Join us on [GitHub](https://github.com/oshifty) or reach out via our [contact form](/contact). Let's revolutionize lighting control together! ✨
+Let's make lighting design a breeze together! 🌈
