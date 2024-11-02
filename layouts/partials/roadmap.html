@@ -19,13 +19,13 @@
                     </div>
                 </div>
             </div>
-            <ol class="border-s border-white flex gap-6 border-s-0 border-t overflow-x-auto mt-3 px-20 pb-5 mb-6"
+            <ol class="border-s border-white flex gap-6 border-s-0 border-t overflow-x-auto mt-3 px-20 pb-5 mb-6 snap-proximity snap-x"
                 id="roadmap"></ol>
         </div>
     </div>
 </div>
 
-<li class="w-[20rem] flex-shrink-0 relative hidden" id="TEMPLATE">
+<li class="w-[20rem] flex-shrink-0 relative hidden scroll-mx-4 snap-start" id="TEMPLATE">
     <div class="flex-start flex items-center pt-2 align-center mb-2">
         <div class="me-2 h-[9px] w-[9px] rounded-full bg-white"></div>
         <p class="mt-0 text-sm text-white template-date"></p>
@@ -56,7 +56,7 @@
             const roadmapList = document.getElementById('roadmap');
             roadmapList.innerHTML = '';
             const template = document.getElementById('TEMPLATE');
-
+            let lastDoneItem;
             for (const item of roadmap) {
                 const clone = template.cloneNode(true);
                 clone.id = '';
@@ -71,6 +71,19 @@
 
                 clone.classList.remove('hidden');
                 roadmapList.appendChild(clone);
+
+                if (item.done) {
+                    lastDoneItem = clone;
+                }
+            }
+
+            // scroll the roadmap so that the last done item is visible on the left and there are two non-done items on the right
+            if (lastDoneItem) {
+                lastDoneItem.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'nearest',
+                    inline: 'start'
+                });
             }
         }
 
