@@ -14,7 +14,7 @@ tags:
 
 ## 💡 Thinking Outside the Drawing Board
 
-Instead of going back to the drawing board 🎨 and inventing a new protocol out of real-world context, we decided it's best to try out ideas early. This way, we spend less time on speccing non-feasible ideas 🚫💡. That's where the [**oshifty/vision**](https://github.com/oshifty/vision) repo comes in! It's our virtual playground 🛝 for show technology, simulating both communication between different end devices (hosts) and internal device communication (between microprocessors and peripherals).
+Instead of going back to the drawing board 🎨 and inventing a new protocol out of real-world context, we decided it's best to try out ideas early. This way, we spend less time on speccing non-feasible ideas 🚫💡. That's where the [oshifty/vision](https://github.com/oshifty/vision) repo comes in! It's our virtual playground 🛝 for show technology, simulating both communication between different end devices (hosts) and internal device communication (between microprocessors and peripherals).
 
 ## 🧰 Our Tech Toolbox
 
@@ -32,7 +32,7 @@ So, how does this all come together? Let's dive into an example! 🏊‍♂️
 
 A peripheral object (e.g., a motor fader 🎚️) is instantiated by calling an endpoint of the website (e.g., `/motorfader`). The frontend (client) automatically establishes a WebSocket (WS) connection to the backend (server), connecting reactive elements of the page (like our motor fader) bidirectionally to the backend. In actual devices, such communication is usually handled via Serial Peripheral Interface (SPI) or Inter-Integrated Circuit (I2C).
 
-Communication between hosts (multiple instances of the entire program) happens over the network using the Transmission Control Protocol (TCP). Since TCP is "reliable" 🔒, there's no need to check if the transmission was successful—it's like having a trustworthy messenger who always delivers! 📬
+Communication between hosts (multiple instances of the entire program) happens over the network using the Transmission Control Protocol (TCP). Since TCP is "reliable" 🔒, there's no need to check if the transmission was successful — it's like having a trustworthy messenger who always delivers! 📬
 
 ## Enusuring Robustness ✨
 By creating this virtual environment, we're able to test and refine our ideas in a fun and interactive way, ensuring robustness before implementation. It's all about making the development process as smooth and enjoyable as possible! 🎈
