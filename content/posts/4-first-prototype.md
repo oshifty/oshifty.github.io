@@ -15,8 +15,6 @@ tags:
     - Software
 ---
 
-# 🎉 First E2E Prototype
-
 Today, we're proud to announce the first working end-to-end prototype! In just two days, we were able to build a fully functional prototype with just an ESP32 Dev Board to showcase how easy it is to implement SHIFTY. You can find everything on GitHub in the [oshifty/prototype](https://github.com/oshifty/prototype) repository.
 
 ## 💡 The Idea
