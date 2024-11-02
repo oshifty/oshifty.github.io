@@ -60,7 +60,7 @@
             for (const item of roadmap) {
                 const clone = template.cloneNode(true);
                 clone.id = '';
-                clone.querySelector('.template-date').textContent = item.date;
+                clone.querySelector('.template-date').textContent = item.dateLabel;
                 clone.querySelector('.template-title').textContent = item.title;
                 clone.querySelector('.template-body').innerHTML = `<div>${item.body}</div>`;
                 if (item.done) {
@@ -90,12 +90,12 @@
                         }));
                         return {
                             date: keyValues.date,
-                            order: parseFloat(keyValues.order),
+                            dateLabel: keyValues.dateLabel,
                             title: item.title,
                             body: item.body,
                             done: item.state === 'closed'
                         };
-                    }).filter(item => item !== null).sort((a, b) => a.order - b.order);
+                    }).filter(item => item !== null).sort((a, b) => new Date(a.date) - new Date(b.date));
                 });
             saveToCache(roadmap);
             return roadmap;
