@@ -25,7 +25,7 @@ For a long time, DMX was robust and met industry requirements. However, as moder
 
 ## 🚧 The Limitations of DMX and the Rise of Art-Net
 
-To avoid the hassle of running multiple DMX universes onto one truss, **Art-Net** was developed. This protocol eliminated the one-universe-per-cable limitation by building on **UDP** using broadcast 🚀. However, it didn't adopt other advantages of modern network stacks. Essentially, it was a patch rather than a solution.
+To avoid the hassle of running multiple DMX universes onto one truss, the Ethernet-based **Art-Net** was developed. This protocol eliminated the one-universe-per-cable limitation by building on **UDP** using broadcast 🚀. However, it didn't adopt other advantages of modern network stacks. Essentially, it was a patch rather than a solution.
 
 Recognizing the need for a more advanced protocol, **ESTA** worked on developing a new control protocol that leveraged modern networking advantages and met growing user expectations.
 
