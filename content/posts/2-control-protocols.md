@@ -5,7 +5,7 @@ draft: false
 language: en
 featured_image: ../assets/images/posts/not-a-new-idea.png
 summary: "Exploring the evolution of fixture control protocols and why it's time for a fresh approach with SHIFTY."
-description: "A journey through the history of lighting control—from the invention of phase-cut dimmers to DMX and ACN—and how SHIFTY aims to revolutionize fixture control."
+description: "A journey through the history of lighting control — from the invention of phase-cut dimmers to DMX and ACN — and how SHIFTY aims to revolutionize fixture control."
 author: Lukas Runge
 tags: 
   - History
