@@ -32,7 +32,7 @@ TLDR, will be removed later:
 
 
 
-So, as you now know about the [motivation behind SHIFTY](/motivation), let's dive into the technical details of SHIFTY. Be prepared, it might get a bit technical.
+So, as you now know about the [motivation behind SHIFTY](/posts/1-kickoff), let's dive into the technical details of SHIFTY. Be prepared, it might get a bit technical.
 
 ## Device Connection
 SHIFTY fixtures are all interconnected via network. This allows for a lot of flexibility:
