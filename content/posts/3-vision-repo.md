@@ -14,7 +14,7 @@ tags:
 
 ## 💡 Thinking Outside the Drawing Board
 
-Instead of going back to the drawing board 🎨 and inventing a new protocol out of real-world context, we decided it's best to try out ideas early. This way, we spend less time on speccing non-feasible ideas 🚫💡. That's where the **vision repo** comes in! It's our virtual playground 🛝 for show technology, simulating both communication between different end devices (hosts) and internal device communication (between microprocessors and peripherals).
+Instead of going back to the drawing board 🎨 and inventing a new protocol out of real-world context, we decided it's best to try out ideas early. This way, we spend less time on speccing non-feasible ideas 🚫💡. That's where the [**oshifty/vision**](https://github.com/oshifty/vision) repo comes in! It's our virtual playground 🛝 for show technology, simulating both communication between different end devices (hosts) and internal device communication (between microprocessors and peripherals).
 
 ## 🧰 Our Tech Toolbox
 
