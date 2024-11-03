@@ -34,7 +34,7 @@
                         ensures synchronized operation, communicates bi-directionally in full-duplex with all fixtures,
                         and controls them in regard to their physical values.</p>
                 </div>
-                <div class="col-span-6">
+                <div class="col-span-6 hidden lg:block">
                     {{ $hero := resources.GetMatch "images/pages/shifty-mascot-present.jpg" }}
 
                     {{ $thumb := ($hero.Fill "400x400 webp q90") }}
