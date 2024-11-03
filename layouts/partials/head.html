@@ -23,4 +23,8 @@
 {{ else }}
 {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
+<!-- Plausible Analytics -->
+<script defer data-domain="oshifty.vision" src="https://plausible.service42.me/js/script.hash.outbound-links.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+<!-- End Plausible Analytics -->
 {{ end }}
