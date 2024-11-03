@@ -34,7 +34,7 @@
                         ensures synchronized operation, communicates bi-directionally in full-duplex with all fixtures,
                         and controls them in regard to their physical values.</p>
                 </div>
-                <div class="col-span-6">
+                <div class="col-span-6 hidden lg:block">
                     {{ $hero := resources.GetMatch "images/pages/shifty-mascot-present.jpg" }}
 
                     {{ $thumb := ($hero.Fill "400x400 webp q90") }}
@@ -127,7 +127,7 @@
                             lighting operation easier for everyone.
                         </p>
                     </div>
-                    <div class="my-6">
+                    <div class="my-6 mb-12">
                         <a href="/posts/1-kickoff" class="text-base font-medium text-primary-400 dark:text-primary-100">
                             Learn more about the motivation&nbsp&rarr;
                         </a>
@@ -174,7 +174,7 @@
                             lighting control system. Fixtures are now self describing and can be connected in a bus- or
                             tree-like topology or - even better - in a combination of both.
                         </p>
-                        <p class="pb-12 mt-6 text-lg text-gray-900 dark:text-white">
+                        <p class="pb-6 mt-6 text-lg text-gray-900 dark:text-white">
                             In addition to also building on top of modern network protocols, using Zeroconf for
                             discovery there is no need for manual configuration. Just physically connect the fixtures
                             and they will be automatically detected and configured in your desk. Also, as physical
@@ -287,7 +287,7 @@
                             solution will be adopted by the industry.
                         </p>
                     </div>
-                    <div class="my-6">
+                    <div class="my-6 mb-12">
                         <a href="/validation" class="text-base font-medium text-primary-400 dark:text-primary-100">
                             See how we are validating our approach&nbsp&rarr;
                         </a>
