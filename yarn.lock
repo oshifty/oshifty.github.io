@@ -129,7 +129,7 @@ __metadata:
   resolution: "@oshifty/website@workspace:."
   dependencies:
     "@tailwindcss/typography": "npm:^0.5.15"
-    alpinejs: "npm:^3.14.3"
+    alpinejs: "npm:^3.14.8"
     autoprefixer: "npm:^10.4.20"
     concurrently: "npm:^9.0.1"
     postcss: "npm:^8.4.47"
@@ -208,12 +208,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"alpinejs@npm:^3.14.3":
-  version: 3.14.3
-  resolution: "alpinejs@npm:3.14.3"
+"alpinejs@npm:^3.14.8":
+  version: 3.14.8
+  resolution: "alpinejs@npm:3.14.8"
   dependencies:
     "@vue/reactivity": "npm:~3.1.1"
-  checksum: 10c0/b1d6d5686c72e65b9b5c4aaa0631bb744983b1eeabb21b3eb3a007c09cbf09c886247e8244121e8b20917e7870522c2648f0ce9144d06d8cb9d998878afddce7
+  checksum: 10c0/2d3cb91d48ea26a1f8ae2ea8299bb4cd6a7962d18934bbbf14d86a97769ad7b4c94c6a030fe4446365a549c6ef0ec267bd10cec994741344f5fb4c0fb690f20d
   languageName: node
   linkType: hard
 
